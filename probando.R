@@ -36,8 +36,6 @@ relaciones <- data.frame(
   hasta = c("Pedro", "Maria", "Maria", "Juan", "Ana", "Maria")
 )
 
-relaciones
-
 # 2.1. Convierte el dataframe en un objeto de tipo igraph.
 red <- graph_from_data_frame(d = relaciones, directed = FALSE)
 
